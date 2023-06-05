@@ -1,0 +1,124 @@
+/* MAIN CSS */
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 15px;
+    font-family: Montserrat, sans-serif;
+    background-color: #fafafa;
+    color: #0a0a0ae4;
+    line-height: 1.5;
+}
+
+.link {
+    color: rgb(105, 83, 155);
+
+    font-weight: 500;
+    font-size: 17px;
+
+    text-decoration: none;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover,
+.link:focus {
+    color: rgb(0, 0, 0);
+}
+
+/* TASK 3 */
+.gallery {
+    list-style: none;
+}
+
+/* TASK 5 */
+.input-5 {
+    padding: 10px;
+
+    border: 3px solid;
+    border-radius: 3px;
+
+    outline: none;
+
+    transition: border-color 250ms;
+}
+
+.input-5:hover,
+.input-5:focus {
+    border-color: rgb(105, 83, 155);
+}
+
+/* TASK 6 */
+#validation-input {
+    padding: 10px;
+
+    border: 3px solid #bdbdbd;
+    border-radius: 3px;
+
+    outline: none;
+}
+  
+#validation-input.valid {
+    border-color: #4caf50;
+}
+  
+#validation-input.invalid {
+    border-color: #f44336;
+}
+
+/* TASK 8 */
+.input-login {
+    padding: 5px;
+
+    border: 2px solid;
+    border-radius: 3px;
+
+    outline: none;
+
+    transition: border-color 250ms;
+
+    min-width: 200px;
+}
+
+.input-login:hover,
+.input-login:focus {
+    border-color: rgb(105, 83, 155);
+}
+
+.login-button {
+    padding: 5px;
+    margin-left: 15px;
+
+    width: 100px;
+
+    outline: none;
+    border: 2px solid black;
+    border-radius: 3px;
+
+    transition: all 250ms;
+}
+
+.login-button:hover,
+.login-button:focus {
+    background-color: rgb(105, 83, 155);
+    color: #ffffff;
+
+    outline: none;
+    border: 2px solid transparent;
+}
+
+/* TASK 9 */
+.widget {
+    text-align: center;
+}
+
+.widget p {
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+
+.change-color {
+    width: 150px;
+    padding: 10px;
+}
